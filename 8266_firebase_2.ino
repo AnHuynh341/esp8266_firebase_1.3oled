@@ -31,17 +31,17 @@ DHT dht(DHTpin,DHTTYPE);
 #include "addons/RTDBHelper.h"
 
 // Insert your network credentials
-#define WIFI_SSID "Hanh Tram"
-#define WIFI_PASSWORD "12356789"
+#define WIFI_SSID "Wifi name"
+#define WIFI_PASSWORD "password"
 
-#define USER_EMAIL "c0nvit@duck.com"
-#define USER_PASSWORD "12356789"
+#define USER_EMAIL "your firebase email"
+#define USER_PASSWORD "password"
 
 // Insert Firebase project API Key
-#define API_KEY "AIzaSyC87A38QuE8E06DE9ceJc95G724zz0Ledw"
+#define API_KEY "API_KEY"
 
 // Insert RTDB URLefine the RTDB URL */
-#define DATABASE_URL "https://anhuynhsmarthome-default-rtdb.asia-southeast1.firebasedatabase.app/" 
+#define DATABASE_URL "URL" 
 
 FirebaseData fbdo;
 
